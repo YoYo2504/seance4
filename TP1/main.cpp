@@ -32,13 +32,11 @@ int main(){
 
 	int i =0;
 
-	if(recherche != etudiants[i].name)
+	while(recherche != etudiants[i].name)
 	{
 		i++;
 	}
-	else
-	{
-		cout << "La note de l'étudiant est : " << etudiants[i].note<<endl;
-	};
+	cout << "La note de l'étudiant est : " << etudiants[i].note<<endl;
+
 	return 0;
 }
